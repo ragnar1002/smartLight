@@ -17,7 +17,7 @@ For this aim, each device exposes 2 resources:
 - **res_presence:** act as a sensor for the detection of a presence in that room.
 - **res_light:** act as an actuator, to switch ON/OFF the light in that room.
 
-## The Application
+## 2.The Application
 
 The application exposes a command line interface to interact with the devices.
 
@@ -46,7 +46,7 @@ The user will see also the timestamp corresponding to each update.
 
 The user can exit form this mode just inserting the '0' plus the Enter key.
 
-## Sensors and Actuators
+## 3.Sensors and Actuators
 
 The behaviour of the sensor is emulated in this project using a **random** function that generates a value every 30 seconds . In particular I defined a threshold (50), and if the value generated is equal or above the threshold means that a presence is detected in that room and the light will be switched ON, otherwise anyone is in the room and the light will be switched OFF.
 
