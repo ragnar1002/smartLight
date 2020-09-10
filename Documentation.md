@@ -29,7 +29,7 @@ Show for every room, the state of each resource.
 
 ![screen2](./img/screen2.PNG)
 
-After a small time to wait due to the registration phase, the user can insert the '1' command to see the resources. At the beginning of the program, all lights are **OFF**, and all presence are set to **No**.
+After a small time to wait due to the registration phase, the user can insert the '1' command to see the resources. At the beginning of the program, all lights are **OFF**, and all presences are set to **No**.
 
 
 ### Modify a light state 
@@ -48,7 +48,7 @@ The user can exit form this mode just inserting the '0' plus the Enter key.
 
 ## Sensors and Actuators
 
-The behaviour of the sensor is emulated in this project using a **random** function that every 30 seconds generates a value. In particular I defined a threshold (50), and if the value generated is equal or above the threshold means that a presence is detected in that room and the light will be switched ON, otherwise anyone is in the room and the light will be switched OFF.
+The behaviour of the sensor is emulated in this project using a **random** function that generates a value every 30 seconds . In particular I defined a threshold (50), and if the value generated is equal or above the threshold means that a presence is detected in that room and the light will be switched ON, otherwise anyone is in the room and the light will be switched OFF.
 
 At anytime the user can check the light status also from the Cooja interface, using the LED interface on each device.
 
