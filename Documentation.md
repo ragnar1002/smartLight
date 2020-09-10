@@ -23,7 +23,7 @@ The application exposes a command line interface to interact with the devices.
 
 ![screen1](./img/screen1.PNG)
 
-The main menù offers the possibility of:
+The main menù offers the possibility to:
 ### Get the resources information:
 Show for every room, the state of each resource.
 
