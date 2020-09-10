@@ -32,8 +32,7 @@ After a small time to wait due to the registration phase, the user can insert th
 - **Modify a light state:** allows the user to switch ON/OFF the light in a room, after inserting the node id corresponding to a room.
 ![screen3](./img/screen3.PNG)
 At the end of the function, a string will show the correctness of the process, with the new state changed.
-- **Observe resources Mode:** allows the user to being updated with the current states and changes of the resources. The updates arrives, for each device, every 60 seconds, and after every change in a state (***trigger***).
-The user will see also the timestamp corresponding to each update.
+- **Observe resources Mode:** allows the user to being updated with the current states and changes of the resources. The updates arrives, for each device, every 60 seconds, and after every change in a state (***trigger***). The user will see also the timestamp corresponding to each update.
 ![screen4](./img/screen4.PNG)
 The user can exit form this mode just inserting the '0' plus the Enter key.
 
