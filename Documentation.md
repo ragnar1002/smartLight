@@ -1,6 +1,6 @@
 # SmartLight Application
 
-SmartLight is a simple application developed for the IOT exam.
+SmartLight is an application developed for the IOT exam.
 
 ## 1. Introduction
 It is an environment deployed in a house consisting of one device per each room, plus a special device in charge of acting as a border router. 
