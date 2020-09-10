@@ -24,16 +24,26 @@ The application exposes a command line interface to interact with the devices.
 ![screen1](./img/screen1.PNG)
 
 The main menù offers the possibility of:
-- **Get the resources information:** show for every room, the state of each resource.
+### Get the resources information:
+Show for every room, the state of each resource.
+
 ![screen2](./img/screen2.PNG)
+
 After a small time to wait due to the registration phase, the user can insert the '1' command to see the resources. At the beginning of the program, all lights are **OFF**, and all presence are set to **No**.
 
 
-- **Modify a light state:** allows the user to switch ON/OFF the light in a room, after inserting the node id corresponding to a room.
+### Modify a light state 
+Allows the user to switch ON/OFF the light in a room, after inserting the node id corresponding to a room.
 ![screen3](./img/screen3.PNG)
+
 At the end of the function, a string will show the correctness of the process, with the new state changed.
-- **Observe resources Mode:** allows the user to being updated with the current states and changes of the resources. The updates arrives, for each device, every 60 seconds, and after every change in a state (***trigger***). The user will see also the timestamp corresponding to each update.
+
+### Observe resources Mode
+Allows the user to being updated with the current states and changes of the resources. The updates arrives, for each device, every 60 seconds, and after every change in a state (***trigger***). 
+The user will see also the timestamp corresponding to each update.
 ![screen4](./img/screen4.PNG)
+
+
 The user can exit form this mode just inserting the '0' plus the Enter key.
 
 ## Sensors and Actuators
