@@ -9,7 +9,7 @@ The border router talks with a cloud application developed on the VM.
 
 The house structure used for this application is a simple house, with 5 rooms : **Bedroom 1**, **Bedroom 2**, **Livingroom**, **Bathroom**, **Kitchen**.
 
-The application in mainly based on the idea of switch ON the light in a room whenever a person enter in the room, and switch OFF whenever no one is in the room.
+The application in mainly based on the idea of switching ON the light in a room whenever a person enter in the room, and switching OFF whenever no one is in the room.
 ![home](./img/home.png)
 
 
