@@ -48,7 +48,7 @@ The user can exit form this mode just inserting the '0' plus the Enter key.
 
 ## 3.Sensors and Actuators
 
-The behaviour of the sensor is emulated in this project using a **random** function that generates a value every 30 seconds . In particular I defined a threshold (50), and if the value generated is equal or above the threshold means that a presence is detected in that room and the light will be switched ON, otherwise anyone is in the room and the light will be switched OFF.
+The behaviour of the sensors is emulated in this project using a **random** function that generates an integer value every 30 seconds . In particular I defined a threshold (50), and if the value generated is equal or above the threshold means that a presence is detected in that room and the light will be switched ON, otherwise anyone is in the room and the light will be switched OFF.
 
 At anytime the user can check the light status also from the Cooja interface, using the LED interface on each device.
 
