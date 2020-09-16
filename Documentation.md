@@ -54,4 +54,6 @@ At anytime the user can check the light status also from the Cooja interface, us
 
 The green led corresponds to a ON light, the red one to a OFF light.
 
+A screenshot from a typical execution use case is shown below.
+
 ![screen5](./img/screen5.PNG)
